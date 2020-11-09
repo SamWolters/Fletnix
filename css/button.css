@@ -25,4 +25,7 @@ button.btn, a.btn {
     background-color: var(--red);
 }
 
-.btn.btn-
+.btn.btn-light {
+    background-color: var(--grey);
+    color: #000000;
+}

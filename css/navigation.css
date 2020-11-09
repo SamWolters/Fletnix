@@ -1,0 +1,30 @@
+.navigation-inner {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation-inner > .navigation-left {
+    float: left;
+}
+
+.navigation-inner > .navigation-right {
+    float: right;
+}
+
+.navigation-item a {
+    display: block;
+    color: var(--white);
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.navigation-item a:hover:not(.active) {
+    background-color: var(--blue);
+}
+
+.navigation-item > .active {
+    background-color: var(--red);
+}

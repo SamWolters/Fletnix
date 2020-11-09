@@ -1,0 +1,8 @@
+.jumbotron {
+    max-width: 100%;
+    background-color: var(--dark);
+}
+
+.jumbotron-inner {
+    text-align: center;
+}

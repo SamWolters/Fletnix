@@ -28,23 +28,23 @@
     text-align: center;
     padding: 15px 20px;
     font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 
 .navigation-item > .navigation-btn {
     background-color: var(--red);
-    text-decoration: none;
 }
 
 .navigation-item > .navigation-link {
-    margin: 20px;
-    border-radius: 4px;
+    background-color: var(--gray);
+}
+
+.navigation-item > .navigation-logo {
+    font-size: 1.3rem;
     font-weight: 700;
-    display: inline-block;
-    color: var(--white);
-    text-align: center;
-    padding: 15px 20px;
-    text-decoration: none;
-    text-transform: capitalize;
+    color: var(--red);
+    background-color: var(--white);
 }
 
 .navigation-button a {
@@ -60,7 +60,7 @@
 }
 
 .navigation-link:hover:not(.active) {
-    background-color: var(--blue);
+    background-color: var(--gray);
 }
 
 .navigation-item > .active {

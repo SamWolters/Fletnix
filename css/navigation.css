@@ -37,26 +37,14 @@
 }
 
 .navigation-item > .navigation-link {
-    background-color: var(--gray);
+    background-color: var(--dark);
 }
 
 .navigation-item > .navigation-logo {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: var(--red);
     background-color: var(--white);
-}
-
-.navigation-button a {
-    margin: 20px;
-    background-color: var(--red);
-    border-radius: 4px;
-    display: inline-block;
-    color: var(--white);
-    text-align: center;
-    padding: 15px 20px;
-    text-decoration: none;
-
 }
 
 .navigation-link:hover:not(.active) {

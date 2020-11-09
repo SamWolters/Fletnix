@@ -1,9 +1,10 @@
 .jumbotron {
     max-width: 100%;
     background-color: var(--dark);
+    background-image: url("../assets/movies.jpg");
 }
 
 .jumbotron-inner {
     text-align: center;
-    padding: 150px 0px 70px 0px;
+    padding: 250px 0px 130px 0px;
 }

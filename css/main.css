@@ -13,3 +13,12 @@ html, body {
     color: var(--white);
     font-family: 'Roboto', sans-serif;
 }
+
+.logo {
+    padding: 15px 20px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--red);
+    background-color: var(--white);
+    border-radius: 4px;
+}

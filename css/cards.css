@@ -21,8 +21,8 @@
 }
 
 .card-gray {
-    background-color: var(--gray);
-    color: #ffffff
+    background-color: var(--dark);
+    color: var(--white);
 }
 
 .card-media > img {

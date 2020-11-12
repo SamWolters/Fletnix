@@ -69,6 +69,10 @@ footer {
   padding-bottom: 8px;
 }
 
+.pl-1 {
+  padding-left: 8px;
+}
+
 .text-center {
   text-align: center;
 }

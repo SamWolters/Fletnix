@@ -3,7 +3,7 @@
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto; */
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
     padding: 10px;  
 }
@@ -38,6 +38,14 @@
     grid-column-start: 4;
 }
 
+.grid > .col-5-s {
+    grid-column-start: 5;
+}
+
+.grid > .col-6-s {
+    grid-column-start: 6;
+}
+
 .grid > .col-1-e {
     grid-column-end: 1;
 }
@@ -52,4 +60,20 @@
 
 .grid > .col-4-e {
     grid-column-end: 4;
+}
+
+.grid > .col-5-e {
+    grid-column-end: 5;
+}
+
+.grid > .col-6-e {
+    grid-column-end: 6;
+}
+
+.grid > .col-7-e {
+    grid-column-end: 7;
+}
+
+.grid > .col-center {
+    justify-self: center;
 }

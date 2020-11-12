@@ -11,8 +11,11 @@
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/form.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>🎥 Fletnix</title>
 </head>
@@ -20,19 +23,24 @@
 <body>
     <!-- jumbotron -->
     <div class="jumbotron">
-        <ul class="navigation-inner">
-            <div class="navigation-left">
-                <li class="navigation-item"><a class="navigation-logo" href="#">Fletnix</a></li>
-            </div>
-            <div class="navigation-right">
-                <li class="navigation-item"><a class="navigation-link" href="html/about.html">about us</a></li>
-                <li class="navigation-item"><a class="navigation-btn" href="#">Login</a></li>
-            </div>
-        </ul>
+        <nav>
+            <ul class="navigation-inner">
+                <div class="navigation-left">
+                    <li class="navigation-item"><a class="navigation-logo" href="#">Fletnix</a></li>
+                </div>
+                <div class="navigation-right">
+                    <li class="navigation-item"><a class="navigation-link" href="html/about.html">about us</a></li>
+                    <li class="navigation-item"><a class="navigation-btn" href="#">Login</a></li>
+                </div>
+            </ul>
+        </nav>
         <div class="jumbotron-inner">
             <h1>Sign up for <span class="logo">Fletnix</span></h1>
             <p>Enjoy 3 months of free movies and series</p>
-            <input type="text" placeholder="text">
+            <form class="subscribe" action="" method="post" style="max-width: 350px; display: inline-block;">
+                <input type="text" placeholder="Email">
+                <button class=" btn-submit" type="submit"><i class="fa fa-search"></i></i></button>
+            </form>
         </div>
         <div class="jumbotron-bg"></div>
     </div>

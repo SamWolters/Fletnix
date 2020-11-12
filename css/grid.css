@@ -8,6 +8,16 @@
     padding: 10px;  
 }
 
+.no-grow {
+    min-height: 0;
+    min-width: 0;
+}
+
+.col {
+    overflow: hidden;
+    min-width: 0;
+}
+
 .grid > img {
     height: 100%;
     max-width: 100%;

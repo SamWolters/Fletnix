@@ -1,3 +1,5 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
 :root {
   --blue: #1982c4;
   --white: #fffbf5;
@@ -65,6 +67,10 @@ footer {
 
 .pb-1 {
   padding-bottom: 8px;
+}
+
+.pl-1 {
+  padding-left: 8px;
 }
 
 .text-center {

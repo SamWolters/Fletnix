@@ -22,3 +22,7 @@
     z-index: 2;
     width: 100%;
 }
+
+.jumbotron-overlay {
+    background: linear-gradient(180deg, rgb(41, 47, 54, .3) 10%, rgb(41, 47, 54, .0) 100%);
+}

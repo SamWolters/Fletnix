@@ -1,13 +1,12 @@
 .card {
-    width: 100%;
-    height: 100%;
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    width: auto;
+    height: auto;
     transition: 0.3s;
     border-radius: 6px;
     /* color: #000000; */
     overflow: hidden;
+    padding: 7px;
 }
-
 .card-white {
     background-color: var(--white);
 }
@@ -38,11 +37,6 @@
     /* background-color: #292f36; */
     /* background-color: #1665c0; */
     background-color: #b31522;
-        width: 100%;
-    height: 100%;
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
-    transition: 0.3s;
-    border-radius: 6px;
-    /* color: #000000; */
-    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
 }

@@ -4,7 +4,31 @@
   max-width: 600px;
   margin: 50px 0px 100px 0px;
 }
-
+about-info {
+  top: 10%;
+  left: 100%;
+  position: absolute;
+}
+story-information {
+  float: left;
+  position: relative;
+  left: 50%;
+  padding-top: 15px;
+  width: 125%;
+}
+image-holder {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-grow: 0;
+  position: relative;
+  z-index: 99999;
+  float: right;
+  left: 50%;
+}
+.image-styling {
+  width: 400px;
+  height: 200px;
+}
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
   content: "";
@@ -14,11 +38,12 @@
   top: 0;
   bottom: 0;
   left: 63.5%;
-  margin-left: -3px;
+  margin: 0px 0px 0px -3px;
 }
 
 /* Container around content */
-section {
+section.section-left,
+section.section-right {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;

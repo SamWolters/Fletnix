@@ -13,31 +13,34 @@
 
   <body>
     <div class="jumbotron">
-      <ul class="navigation-inner">
-        <div class="navigation-left">
-          <li class="navigation-item">
-            <a class="navigation-logo" href="../index.html">Fletnix</a>
-          </li>
-        </div>
-        <div class="navigation-right">
-          <li class="navigation-item">
-            <a class="navigation-link" href="">about us</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-btn" href="#">Login</a>
-          </li>
-        </div>
-      </ul>
+      <nav>
+          <ul class="navigation-inner">
+              <div class="navigation-left">
+                  <li class="navigation-item"><a class="navigation-logo" href="#">Fletnix</a></li>
+              </div>
+              <div class="navigation-right">
+                  <li class="navigation-item"><a class="navigation-link" href="html/about.html">subscribe</a></li>
+                  <li class="navigation-item"><a class="navigation-link" href="html/about.html">about us</a></li>
+                  <li class="navigation-item"><a class="navigation-btn" href="#">Login</a></li>
+              </div>
+          </ul>
+      </nav>
       <div class="jumbotron-inner">
-        <h1>Sign up for <span class="logo">Fletnix</span></h1>
-        <p>Enjoy 3 months of free movies and series</p>
+          <h1>Sign up for <span class="logo">Fletnix</span></h1>
+          <p>Enjoy 3 months of free movies and series</p>
+          <form class="subscribe" action="" method="post" style="max-width: 350px; display: inline-block;">
+              <input type="text" placeholder="Email">
+              <button class=" btn-submit" type="submit"><i class="fa fa-search"></i></i></button>
+          </form>
       </div>
-      <div class="jumbotron-bg"></div>
-    </div>
+      <div class="jumbotron-bg">
+          <div class="jumbotron-overlay"></div>
+      </div>
+  </div>
 
     <div class="timeline">
       <section class="section-left">
-        <div class="content">
+        <div class="content card">
           <h2>2020</h2>
           <p>Launch of Fletnix</p>
         </div>
@@ -72,6 +75,16 @@
           <p>release of first film produced by us</p>
         </div>
       </section>
-    </div>
+    
+    <about-info>
+      <image-holder>
+      <img class="image-styling" src="https://gdb.voanews.com/D1AC130C-23B0-4F22-A474-0CE5A310313C_w1023_r1_s.jpg" alt="" >
+      </image-holder>
+      <story-information>
+        <h2 class="text-center">ABOUT OUR TEAM</h2>
+        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </story-information>
+    </about-info>
+  </div>
   </body>
 </html>

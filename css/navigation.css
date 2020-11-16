@@ -1,57 +1,56 @@
 .navigation-inner {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed;
-    z-index: 9;
-    width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
 }
 
 .navigation-inner > .navigation-left {
-    float: left;
+  float: left;
 }
 
 .navigation-inner > .navigation-right {
-    float: right;
+  float: right;
 }
 
 .navigation-item {
-    display: inline-block;
+  display: inline-block;
 }
 
 .navigation-item > a {
-    margin: 15px;
-    border-radius: 4px;
-    display: inline-block;
-    color: var(--white);
-    text-align: center;
-    padding: 15px;
-    font-size: 1.1rem;
-    text-decoration: none;
-    text-transform: capitalize;
+  margin: 15px;
+  border-radius: 4px;
+  display: inline-block;
+  color: var(--white);
+  text-align: center;
+  padding: 15px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .navigation-item > .navigation-btn {
-    background-color: var(--red);
+  background-color: var(--red);
 }
 
 .navigation-item > .navigation-link {
-    /* background-color: var(--dark); */
+  /* background-color: var(--dark); */
 }
 
 .navigation-item > .navigation-logo {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: var(--red);
-    background-color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--red);
+  background-color: var(--white);
 }
 
 .navigation-link:hover:not(.active) {
-    background-color: var(--gray);
+  background-color: var(--gray);
 }
 
 .navigation-item > .active {
-    background-color: var(--red);
+  background-color: var(--red);
 }
-

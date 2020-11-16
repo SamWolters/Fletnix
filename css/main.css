@@ -20,6 +20,7 @@ body {
 .container {
   width: 75%;
   margin: 0 auto;
+  margin-top: 75px;
 }
 
 footer {
@@ -91,4 +92,9 @@ footer {
 
 .bold {
   font-weight: 700;
+}
+
+.center {
+  display: flex;
+  align-self: center;
 }

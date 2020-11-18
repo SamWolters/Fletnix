@@ -26,8 +26,7 @@ image-holder {
   left: 50%;
 }
 .image-styling {
-  width: 400px;
-  height: 200px;
+  
 }
 /* The actual timeline (the vertical ruler) */
 .timeline::after {

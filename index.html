@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/flex.css">
+    <link rel="stylesheet" href="css/modal.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
@@ -30,9 +31,9 @@
                     <li class="navigation-item"><a class="navigation-logo" href="#">Fletnix</a></li>
                 </div>
                 <div class="navigation-right">
-                    <li class="navigation-item"><a class="navigation-link"href="../html/subscription.html">subscription</a></li>
-                    <li class="navigation-item"><a class="navigation-link" href="../html/about.html">about us</a></li>
-                    <li class="navigation-item"><a class="navigation-btn" href="../html/login.html">Login</a></li>
+                    <li class="navigation-item"><a class="navigation-link"href="html/subscription.html">subscription</a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="html/about.html">about us</a></li>
+                    <li class="navigation-item"><a class="navigation-btn" href="html/login.html">Login</a></li>
                 </div>
             </ul>
         </nav>
@@ -105,6 +106,42 @@
                             est
                             congue efficitur. Donec non tempus ipsum. Suspendisse potenti. Mauris nec risus pulvinar, efficitur elit id,
                             sollicitudin quam. Donec eu nunc urna.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-normal" class="modal">
+        <div class="modal-inner">
+            <div class="modal-header">
+                <div class="flex centered">
+                    <div class="col-4">
+                        <h1>Login</h1>
+                    </div>
+                    <div class="col-2">
+                        <div class="text-right">
+                            <button>&times;</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="modal-body">
+                <div class="flex flex-center">
+                    <div class="col-3">
+                        <form action="" method="POST">
+                            <label>
+                                Email:
+                                <input type="email">
+                            </label>
+
+                            <label>
+                                Password:
+                                <input type="password">
+                            </label>
+
+                            <input type="submit">
+                        </form>
                     </div>
                 </div>
             </div>

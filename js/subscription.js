@@ -10,6 +10,9 @@ $(document).ready(function() {
     var btnBasic = document.getElementById("btnBasic")
     var btnNormal = document.getElementById("btnNormal")
     var btnPremium = document.getElementById("btnPremium")
+    var btnCloseModalBasic = document.getElementById("btnCloseModalBasic")
+    var btnCloseModalNormal = document.getElementById("btnCloseModalNormal")
+    var btnCloseModalPremium = document.getElementById("btnCloseModalPremium")
 
     btnBasic.onclick = function () {
         toggleModal(document.getElementById("modal-basic"))
@@ -22,12 +25,28 @@ $(document).ready(function() {
     btnPremium.onclick = function () {
         toggleModal(document.getElementById("modal-premium"))
     }
+
+    btnCloseModalBasic.onclick = function () {
+        toggleModal(openModal)
+    }
+
+    btnCloseModalNormal.onclick = function () {
+        toggleModal(openModal)
+    }
+
+    btnCloseModalPremium.onclick = function () {
+        toggleModal(openModal)
+    }
 });
 
 function toggleModal(element) {
-    console.log("open")
+    if (element.style.display == "none") {
+        element.style.display = "block";
+    } else {
+        element.style.display = "none";
+    }
+
     openModal = element;
-    element.style.display = "block";
 }
 
 window.onclick = function(event) {

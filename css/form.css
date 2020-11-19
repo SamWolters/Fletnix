@@ -3,39 +3,25 @@ input, label {
 }
 
 label {
-  margin: 8px 0px;
+  margin: 14px 0px;
 }
 
-input[type=text] {
-  width: 80%;
-  padding: 12px 10px;
-  border: 1px solid var(--gray);
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-input[type="password"] {
-    width: 80%;
-  padding: 12px 10px;
-  border: 1px solid var(--gray);
-  border-radius: 4px;
-  box-sizing: border-box;
-  /* padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: #f1f1f1;
-  box-sizing: border-box;
-  margin-bottom: 20px; */
-  /* border-radius: 4px; */
-}
-
-form > label {
-  padding: 10px;
-  font-size: 17px;
-  float: left;
+input {
   width: 100%;
+  padding: 12px 10px;
+  border: 1px solid var(--gray);
+  border-radius: 4px;
+  box-sizing: border-box;
 }
+
+input[type="submit"] {
+  width: auto;
+  padding: auto 30px;
+  background-color: var(--blue);
+  color: white;
+  float: right;
+}
+
 /* Style the submit button */
 .btn-submit {
   position: relative;

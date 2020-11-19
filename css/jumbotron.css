@@ -6,8 +6,8 @@
 }
 
 .jumbotron-bg {
-    background-image: url("../assets/movies.jpg");
-    background-position: center;
+    background-image: url(../assets/movies.jpg);
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(2px);
@@ -15,9 +15,12 @@
     height: 100%;
 }
 
+.jumbotron-bg.movie-banner {
+    background-image: url(../assets/movie-banner.jpg);
+}
+
 .jumbotron-inner {
-    text-align: center;
-    padding: 300px 0px 180px 0px; 
+    margin: 300px 0px auto 0px; 
     position: absolute;
     z-index: 2;
     width: 100%;
@@ -25,4 +28,9 @@
 
 .jumbotron-overlay {
     background: linear-gradient(180deg, rgb(41, 47, 54, .3) 10%, rgb(41, 47, 54, .0) 100%);
+}
+
+.jumbotron-btn {
+    margin-top: 200px;
+    padding-left: 20px;
 }

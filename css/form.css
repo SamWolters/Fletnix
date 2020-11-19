@@ -1,12 +1,17 @@
-input[type="text"] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
+input, label {
+  display:block;
+}
+
+label {
+  margin: 8px 0px;
+}
+
+input[type=text] {
   width: 80%;
-  background: #f1f1f1;
+  padding: 12px 10px;
+  border: 1px solid var(--gray);
+  border-radius: 4px;
   box-sizing: border-box;
-  /* border-radius: 4px; */
 }
 input[type="password"] {
   padding: 10px;

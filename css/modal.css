@@ -12,24 +12,23 @@
 }
 
 .modal-inner {
-    background-color: var(--white);
-    margin: 15% auto;
-    padding: 20px;
-    width: 50%;
-    border-radius: 6px;
-    color: black;
-    animation: show .3s;
+  background-color: var(--white);
+  margin: 15% auto;
+  padding: 20px;
+  width: 50%;
+  border-radius: 6px;
+  color: black;
+  animation: show 0.3s;
 }
 
 .modal-header > button {
-    
 }
 
 @keyframes show {
-    from {
-        transform: scale(0);
-    }
-    to {
-        transform: scale(1);
-    }
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }

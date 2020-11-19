@@ -1,4 +1,4 @@
-input[type=text] {
+input[type="text"] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
@@ -8,13 +8,33 @@ input[type=text] {
   box-sizing: border-box;
   /* border-radius: 4px; */
 }
+input[type="password"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  /* border-radius: 4px; */
+}
 
+form > label {
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  width: 80%;
+}
 /* Style the submit button */
 .btn-submit {
+  position: relative;
+  clear: both;
   float: left;
+  left: 30%;
   width: 20%;
   padding: 10px;
-  background: #2196F3;
+  background: #2196f3;
   color: white;
   font-size: 17px;
   border: 1px solid grey;

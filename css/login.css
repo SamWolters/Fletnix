@@ -1,0 +1,21 @@
+section {
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  background-color: var(--red);
+  border-radius: 10px;
+  left: 25%;
+  top: 30%;
+  padding: 20px;
+}
+section > form {
+  position: relative;
+  left: 10%;
+}
+section > form > input {
+  margin-bottom: 25px;
+}
+section > form > .btn-submit {
+  margin-top: 50px;
+  left: 60%;
+}

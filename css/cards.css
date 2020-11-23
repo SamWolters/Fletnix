@@ -57,7 +57,7 @@
     padding: 0;
 
     background-repeat: no-repeat;
-    background-size: 400px cover;
+    background-size: cover;
 
     transition: height .15s ease-out;
 }

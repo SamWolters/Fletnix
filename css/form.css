@@ -1,5 +1,6 @@
-input, label {
-  display:block;
+input,
+label {
+  display: block;
 }
 
 label {
@@ -27,8 +28,8 @@ input[type="submit"] {
   position: relative;
   clear: both;
   float: left;
-  left: 30%;
   width: 20%;
+  left: 2%;
   padding: 10px;
   background: #2196f3;
   color: white;

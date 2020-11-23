@@ -21,9 +21,6 @@
   animation: show 0.3s;
 }
 
-.modal-header > button {
-}
-
 @keyframes show {
   from {
     transform: scale(0);

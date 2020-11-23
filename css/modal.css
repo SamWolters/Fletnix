@@ -18,7 +18,7 @@
   width: 50%;
   border-radius: 6px;
   color: black;
-  animation: show 0.3s;
+  animation: show .3s;
 }
 
 @keyframes show {
@@ -29,3 +29,28 @@
     transform: scale(1);
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .modal-inner {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border-radius: 6px 6px 0px 0px;
+    color: black;
+    animation: show .3s;
+    bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .modal-inner {
+    background-color: var(--white);
+    margin: 15% auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 6px;
+    color: black;
+    animation: show .3s;
+  }
+}
+

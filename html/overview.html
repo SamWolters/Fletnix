@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <head>
     <meta charset="UTF-8">
@@ -7,26 +10,27 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/feather-icons"></script>
+    <script type="text/javascript" src="../js/button.js"></script>
     <script type="text/javascript" src="../js/subscription.js"></script>
 
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/buttons.css">
-    <link rel="stylesheet" href="../css/jumbotron.css">
-    <link rel="stylesheet" href="../css/navigation.css">
-    <link rel="stylesheet" href="../css/grid.css">
-    <link rel="stylesheet" href="../css/cards.css">
-    <link rel="stylesheet" href="../css/form.css">
-    <link rel="stylesheet" href="../css/flex.css">
-    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/buttons.css" />
+    <link rel="stylesheet" href="../css/jumbotron.css" />
+    <link rel="stylesheet" href="../css/navigation.css" />
+    <link rel="stylesheet" href="../css/grid.css" />
+    <link rel="stylesheet" href="../css/cards.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <link rel="stylesheet" href="../css/flex.css" />
+    <link rel="stylesheet" href="../css/modal.css" />
 
     <link rel="icon" 
       type="image/png" 
       href="../assets/favicon.png">
       
     <title>🎥 Fletnix</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- jumbotron -->
     <section class="jumbotron">
         <nav>
@@ -64,111 +68,96 @@
                 </form>
             </div>
         </div>
+      </div>
 
-        <div class="flex">
-            <div class="col-1 col-md-2 col-sm-3">
-                <div class="card card-white card-media no-padding">
-                    <img src="../assets/movie-poster.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-1 col-md-2 col-sm-3">
-                <div class="card card-white card-media no-padding">
-                    <img src="../assets/movie-poster.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-1 col-md-2 col-sm-3">
-                <div class="card card-white card-media no-padding">
-                    <img src="../assets/movie-poster.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-1 col-md-2 col-sm-3">
-                <div class="card card-white card-media no-padding">
-                    <img src="../assets/movie-poster.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-1 col-md-2 col-sm-3">
-                <div class="card card-white card-media no-padding">
-                    <img src="../assets/movie-poster.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-1 col-md-2 col-sm-3">
-                <div class="card card-white card-media no-padding">
-                    <img src="../assets/movie-poster.jpg" alt="">
-                </div>
-            </div>  
-            <div class="col-1 col-md-2 col-sm-3">
-                <div class="card card-white card-media no-padding">
-                    <img src="../assets/movie-poster.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-1 col-md-2 col-sm-3">
-                <div class="card card-white card-media no-padding">
-                    <img src="../assets/movie-poster.jpg" alt="">
-                </div>
-            </div>
+      <div class="flex">
+        <div class="col-1 col-md-2 col-sm-3">
+          <div class="card card-white card-media no-padding">
+            <img src="../assets/movie-poster.jpg" id="Black_Panther" alt="" />
+          </div>
         </div>
-    </main>
+        <div class="col-1 col-md-2 col-sm-3">
+          <div class="card card-white card-media no-padding">
+            <img src="../assets/movie-poster.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-1 col-md-2 col-sm-3">
+          <div class="card card-white card-media no-padding">
+            <img src="../assets/movie-poster.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-1 col-md-2 col-sm-3">
+          <div class="card card-white card-media no-padding">
+            <img src="../assets/movie-poster.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-1 col-md-2 col-sm-3">
+          <div class="card card-white card-media no-padding">
+            <img src="../assets/movie-poster.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-1 col-md-2 col-sm-3">
+          <div class="card card-white card-media no-padding">
+            <img src="../assets/movie-poster.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-1 col-md-2 col-sm-3">
+          <div class="card card-white card-media no-padding">
+            <img src="../assets/movie-poster.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-1 col-md-2 col-sm-3">
+          <div class="card card-white card-media no-padding">
+            <img src="../assets/movie-poster.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <section id="modal-basic" class="modal">
-        <div class="modal-inner">
-            <div class="modal-header">
-                <section class="flex centered">
-                    <article class="col-4">
-                        <h1>Complete your subscription</h1>
-                    </article>
-                    <div class="col-2">
-                        <div class="text-right">
-                            <button>&times;</button>
-                        </div>
-                    </div>
-                </section>
-                <hr>
+    <div id="modal-film" class="modal" style="margin-top: 25px">
+      <div class="modal-inner">
+        <div class="modal-header">
+          <div class="flex centered">
+            <div class="col-4">
+              <h1>The Black Panther</h1>
             </div>
-            <section class="modal-body">
-                <div class="flex">
-                    <section class="col-3">
-                        <form action="" method="post">
-                            <label>
-                                Name:
-                                <input type="text">
-                            </label>
-                            <label>
-                                Email:
-                                <input type="text">
-                            </label>
-                            <label>
-                                Wachtwoord:
-                                <input type="text">
-                            </label>
-                            <label>
-                                Straat:
-                                <input type="text">
-                            </label>
-                            <label>
-                                Woonplaats:
-                                <input type="text">
-                            </label>
-                            <input type="submit" value="hallo">
-                        </form>
-                    </section>
-                    <section class="col-3">
-                        <section class="card card-white no-padding">
-                            <section class="card-subscription expended">
-                                <h2 class="text-center">BASIC</h2>
-                                <article class="card-subscription-details text-center">
-                                    <p><strong>Price:</strong> €5,99</p>
-                                    <p><strong>Beeldkwaliteit:</strong> Good</p>
-                                    <p><strong>Resolutie:</strong> 1080p</p>
-                                    <p><strong>Gebruikers:</strong> 1</p>
-                                    <p><strong>Maandelijks opzegbaar:</strong> <i class="fa fa-check icon-blue"></i></p>
-                                </article>
-                            </section>
-                        </section>
-                    </section>
-                </div>
-            </section>
+            <div class="col-2">
+              <div class="text-right">
+                <button>&times;</button>
+              </div>
+            </div>
+          </div>
+          <hr />
         </div>
-    </section>
+        <div id="modal-film" class="modal" style="width: 100%">
+          <div class="flex">
+            <div class="" style="width: 100%">
+              <img
+                src="../assets/Black_Panther.jpg"
+                alt=""
+                style="width: 100%"
+              />
+            </div>
+            <div class="col-3" style="display: contents">
+              <p>
+                Thousands of years ago, five African tribes war over a meteorite
+                containing the metal vibranium. One warrior ingests a
+                "heart-shaped herb" affected by the metal and gains superhuman
+                abilities, becoming the first "Black Panther". He unites all but
+                the Jabari Tribe to form the nation of Wakanda.
+              </p>
+              <div>
+                <p>Directed by: Ryan Coogler, Wesley Snipes</p>
+                <p>
+                  cast: Lupita Nyong'o, Michael B. Jordan, Danai Gurira, and
+                  Chadwick Boseman
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- <footer class="mt-3">
         <div class="text-center medium pt-3 pb-1">

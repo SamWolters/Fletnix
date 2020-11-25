@@ -31,3 +31,9 @@
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+
+strong {
+  font-size: 110%;
+  font-style: italic;
+  padding-right: 5px;
+}

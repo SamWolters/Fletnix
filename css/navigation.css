@@ -92,7 +92,7 @@ nav ul li > .active {
   background-color: var(--red);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 755px) {
   nav ul li:not(:first-child) {
     display: none;
   }
@@ -100,9 +100,6 @@ nav ul li > .active {
     float: right;
     display: block;
   }
-}
-
-@media screen and (max-width: 600px) {
   nav ul.responsive {
     position: relative;
   }

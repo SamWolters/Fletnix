@@ -23,7 +23,6 @@ input[type="submit"] {
   float: right;
 }
 
-/* Style the submit button */
 .btn-submit {
   position: relative;
   clear: both;
@@ -35,7 +34,7 @@ input[type="submit"] {
   color: white;
   font-size: 17px;
   border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
+  border-left: none;
   cursor: pointer;
 }
 

@@ -42,7 +42,6 @@ input[type="submit"] {
   background: #0b7dda;
 }
 
-/* Clear floats */
 .subscribe::after {
   content: "";
   clear: both;

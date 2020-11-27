@@ -27,7 +27,6 @@ body {
 
 footer {
   background-color: #333538;
-  /* position: absolute; */
   right: 0;
   bottom: 0;
   left: 0;
@@ -46,8 +45,6 @@ footer {
 
 .image {
   border-radius: 6px;
-  /* -webkit-box-shadow: 4px 4px 7px 1px rgba(46, 50, 54, 0.63); 
-  box-shadow: 4px 4px 7px 1px rgba(62, 63, 65, 0.63); */
   max-width: 100%;
 }
 

@@ -33,7 +33,6 @@ nav ul li > .navigation-btn {
   background-color: var(--red);
   margin: 15px;
   border-radius: 6px;
-  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: none;
   color: white;
@@ -96,7 +95,7 @@ nav ul li > .active {
   nav ul li:not(:first-child) {
     display: none;
   }
-  nav ul a.icon {
+  nav ul li.icon {
     float: right;
     display: block;
   }
@@ -112,7 +111,7 @@ nav ul li > .active {
     top: 0;
     right: 0;
   }
-  nav ul.responsive a {
+  nav ul.responsive li > i {
     float: none;
     display: block;
     text-align: left;

@@ -44,24 +44,20 @@
 .card-hover:hover {
     background-color: #b31522;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-
 }
 
 .card-subscription {
     position: relative;
     height: 200px;
     padding: 0;
-
     background-repeat: no-repeat;
     background-size: cover;
-
     transition: height .15s ease-out;
 }
 
 .card-subscription.expended {
     height: 400px;
 }
-
 
 .card-subscription h2 {
     padding: 75px 0px;

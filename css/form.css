@@ -1,18 +1,15 @@
-input,
 label {
   display: block;
-}
-
-label {
   margin: 14px 0px;
 }
 
-input {
-  width: 100%;
+input, select {
+  width: 90%;
   padding: 12px 10px;
   border: 1px solid var(--gray);
   border-radius: 4px;
   box-sizing: border-box;
+  display: inline-block;
 }
 
 input[type="submit"] {

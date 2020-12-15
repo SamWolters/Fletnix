@@ -15,27 +15,7 @@
 
   <body>
     <nav>
-      <ul>
-        <li><a class="navigation-logo" href="../index.html">Fletnix</a></li>
-        <li>
-          <a class="navigation-link" href="../html/subscription.html"
-            >subscription</a
-          >
-        </li>
-        <li>
-          <a class="navigation-link" href="../html/overview.html">Overview</a>
-        </li>
-
-        <li>
-          <a class="navigation-link" href="../html/about.html">about us</a>
-        </li>
-        <li>
-          <a href="../index.html" class="btn btn-red">Sign out</a>
-        </li>
-        <li class="icon">
-          <i class="fa fa-bars"></i>
-        </li>
-      </ul>
+      <?php include '../include/navigation.php' ?>
     </nav>
     <section>
       <div class="container">

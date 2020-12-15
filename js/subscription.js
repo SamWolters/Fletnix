@@ -15,15 +15,15 @@ $(document).ready(function() {
     var btnCloseModalPremium = document.getElementById("btnCloseModalPremium")
 
     btnBasic.onclick = function () {
-        toggleModal(document.getElementById("modal-basic"))
+        toggleModal(document.getElementById("modal-Basic"))
     }
 
     btnNormal.onclick = function () {
-        toggleModal(document.getElementById("modal-normal"))
+        toggleModal(document.getElementById("modal-Normal"))
     }
 
     btnPremium.onclick = function () {
-        toggleModal(document.getElementById("modal-premium"))
+        toggleModal(document.getElementById("modal-Premium"))
     }
 
     btnCloseModalBasic.onclick = function () {

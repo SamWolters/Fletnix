@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.min.js"
-      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script src="../js/button.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="../js/button.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/feather-icons"></script>
   <script src="../js/button.js"></script>
 
@@ -34,28 +30,17 @@
   <link rel="icon" type="image/png" href="../favicon.png" />
 
   <title>🎥 Fletnix</title>
+
+  <?php require_once('../Fletnix/php/functions/database.php'); ?>
+
+  <?php
+    $query = "SELECT * FROM Movie";
+    $result = execute_query($query);
+  ?>
 </head>
 
 <body>
   <header class="jumbotron">
-    <nav>
-      <ul>
-        <li><a class="navigation-logo" href="../index.html">Fletnix</a></li>
-        <li>
-          <a class="navigation-link" href="../html/subscription.html">subscription</a>
-        </li>
-        <li>
-          <a class="navigation-link" href="../html/overview.html">Overview</a>
-        </li>
-        <li>
-          <a class="navigation-link" href="../html/about.html">about us</a>
-        </li>
-        <li id="btnSignIn"><button class="btn btn-red">Login</button></li>
-        <li class="icon">
-          <i class="fa fa-bars"></i>
-        </li>
-      </ul>
-    </nav>
     <section class="jumbotron-inner text-center">
       <h1>Watch thousands of movies and series</h1>
       <h3 style="color: var(--white)">
@@ -98,46 +83,14 @@
       </div>
 
       <div class="flex">
+        <?php foreach ($result as $movie) {  print($movie["id"]); ?>
         <div class="col-1 col-md-2 col-sm-3">
           <div class="card card-white card-media no-padding" id="Black_Panther">
             <img src="../assets/movie-poster.jpg" alt="" />
+            <h3><?php echo $movie['title']; ?></h3>
           </div>
         </div>
-        <div class="col-1 col-md-2 col-sm-3">
-          <div class="card card-white card-media no-padding">
-            <img src="../assets/movie-poster.jpg" alt="" />
-          </div>
-        </div>
-        <div class="col-1 col-md-2 col-sm-3">
-          <div class="card card-white card-media no-padding">
-            <img src="../assets/movie-poster.jpg" alt="" />
-          </div>
-        </div>
-        <div class="col-1 col-md-2 col-sm-3">
-          <div class="card card-white card-media no-padding">
-            <img src="../assets/movie-poster.jpg" alt="" />
-          </div>
-        </div>
-        <div class="col-1 col-md-2 col-sm-3">
-          <div class="card card-white card-media no-padding">
-            <img src="../assets/movie-poster.jpg" alt="" />
-          </div>
-        </div>
-        <div class="col-1 col-md-2 col-sm-3">
-          <div class="card card-white card-media no-padding">
-            <img src="../assets/movie-poster.jpg" alt="" />
-          </div>
-        </div>
-        <div class="col-1 col-md-2 col-sm-3">
-          <div class="card card-white card-media no-padding">
-            <img src="../assets/movie-poster.jpg" alt="" />
-          </div>
-        </div>
-        <div class="col-1 col-md-2 col-sm-3">
-          <div class="card card-white card-media no-padding">
-            <img src="../assets/movie-poster.jpg" alt="" />
-          </div>
-        </div>
+        <?php } ?>
       </div>
 
       <div id="modal-film" class="modal">
@@ -157,11 +110,7 @@
           </div>
           <div class="flex">
             <div class="modal-overlay">
-              <img
-                src="../assets/Black_Panther.jpg"
-                alt=""
-                style="width: 100%"
-              />
+              <img src="../assets/Black_Panther.jpg" alt="" style="width: 100%" />
               <a class="btn btn-red" href="../html/player.html">Play</a>
             </div>
             <div class="col-3" style="display: contents">
